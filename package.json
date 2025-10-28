@@ -1,0 +1,32 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "keywords": [
+    "game"
+  ],
+  "homepage": "https://github.com/RomanNikolaich/JS.Task.Working.Environment#readme",
+  "bugs": {
+    "url": "https://github.com/RomanNikolaich/JS.Task.Working.Environment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanNikolaich/JS.Task.Working.Environment.git"
+  },
+  "license": "ISC",
+  "author": "Nikolaich",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel scr --out-dir dist",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "core-js": "^3.46.0",
+    "eslint": "^9.38.0"
+  }
+}
