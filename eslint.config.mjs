@@ -1,5 +1,10 @@
+import js from "@eslint/js";
+
 export default [
   js.configs.recommended,
+  {
+    ignores: ["dist/", "node_modules/"],
+  },
   {
     files: ['**/*.js'],
     languageOptions: {
@@ -12,6 +17,7 @@ export default [
       }
     },
     rules: {
+      "eslint-disable": "no-unused-vars"
     }
   }
 ];
