@@ -17,7 +17,7 @@ export default [
       }
     },
     rules: {
-      "eslint-disable": "no-unused-vars"
+
     }
   }
 ];
